@@ -14,8 +14,9 @@ function App() {
           <li>Link Three</li>
         </ul>
       </nav>
-      <h1>Personal Portfolio</h1>
-      <p>Say something about yourself here!</p>
+      <h1>Lynn Smollin</h1>
+      <p>Welcome to my portfolio, fully of code projects!</p>
+      <p></p>
       <figure>
         <picture>
           <souce srcset="https://www.fillmurray.com/g/300/400" />
