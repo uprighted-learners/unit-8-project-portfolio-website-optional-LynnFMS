@@ -2,10 +2,7 @@ import './App.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css"
 import React from 'react'
-import AboutMe from "./components/AboutMe.jsx";
-import HobbbiesAndInterests from "./components/HobbiesAndInterestsPage.jsx";
-import ProjectsPage from "./components/ProjectsPage.jsx";
-import WorkHistory from "./components/WorkHistory.jsx";
+
 
 function App() {
   return (
