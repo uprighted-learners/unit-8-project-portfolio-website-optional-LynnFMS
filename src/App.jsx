@@ -34,11 +34,11 @@ function App() {
       </figure>
       <>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/hobbies" element={<Hobbies />} />
-        <Route path="/work" element={<Work />} />
+        <Routes path="/" element={<Home />} />
+        <Routes path="/about" element={<About />} />
+        <Routes path="/projects" element={<Projects />} />
+        <Routes path="/hobbies" element={<Hobbies />} />
+        <Routes path="/work" element={<Work />} />
         </Routes>
       </>
     </div>
