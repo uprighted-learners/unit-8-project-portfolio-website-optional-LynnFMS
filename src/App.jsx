@@ -1,7 +1,13 @@
 import './App.css';
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Routes } from "react-router-dom";
 import "./App.css"
 import React from 'react'
+import Home from './components/Home.jsx';
+import About from './components/aboutMe';
+import Projects from './components/projects';
+import Hobbies from './components/Hobbies';
+import Work from './components/work';
+
 
 
 function App() {
@@ -26,7 +32,17 @@ function App() {
           Source: <a href="https://www.fillmurray.com/">www.fillmurray.com/</a>
         </figcaption>
       </figure>
+      <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/hobbies" element={<Hobbies />} />
+        <Route path="/work" element={<Work />} />
+        </Routes>
+      </>
     </div>
+ 
   );
 }
 
