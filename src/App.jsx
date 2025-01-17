@@ -41,8 +41,9 @@ function App() {
     
 <Router>
 <div className="App">
+<h1>Lynn Smollin</h1>
       <Nav />
-      <h1>Lynn Smollin</h1>
+      {/* <h1>Lynn Smollin</h1> */}
       <Routes>
         {/* <Route path="/" element={<Home />} /> */}
         <Route path="/about" element={<About />} />

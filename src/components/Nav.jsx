@@ -6,9 +6,11 @@ function Nav() {
   return (
     <div>
         <ul>
-              <li onClick={()=> navigate("/about")}>about</li>
-              <li onClick={()=> navigate("/projects")}>home</li>
-              <li onClick={()=> navigate("/work")}>work</li>
+              <button onClick={()=> navigate("/home")}>home</button>
+              <button onClick={()=> navigate("/about")}>about</button>
+              <button onClick={()=> navigate("/projects")}>projects</button>
+              <button onClick={()=> navigate("/work")}>work</button>
+              <button onClick={()=> navigate("/hobbies")}>hobbies</button>
         </ul>
     </div>
   )
