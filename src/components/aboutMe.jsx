@@ -1,9 +1,12 @@
-import React from 'react'; 
-const About = () => { 
-    return 
-    <h2>About Me</h2>; }; 
-    
-    export default About;
+import React from 'react'
+
+function AboutMe() {
+  return (
+    <div>AboutMe</div>
+  )
+}
+
+export default AboutMe
 
     // Hi! I'm Lynn. I'm a full-stack web developer and a scrum master. 
     // I have a passion for learning and creating. I enjoy working with others and I'm excited to bring my skills to a new team. 

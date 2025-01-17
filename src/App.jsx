@@ -1,27 +1,30 @@
 import './App.css';
-import { createBrowserRouter, RouterProvider, Routes } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
 import "./App.css"
 import React from 'react'
-import Home from './components/Home.jsx';
-import About from './components/aboutMe';
-import Projects from './components/projects';
+import Home from './components/Home';
+import About from './components/AboutMe';
+import Projects from './components/Projects';
 import Hobbies from './components/Hobbies';
-import Work from './components/work';
+import Work from './components/Work';
+import Nav from './components/Nav';
 
 
 
 function App() {
+  // const navigate = useNavigate();
   return (
-    <div className="App">
-      <nav>
-        <ul>
-          <li>Link One</li>
-          <li>Link Two</li>
-          <li>Link Three</li>
-        </ul>
-      </nav>
-      <h1>Lynn Smollin</h1>
-      <p>Welcome to my portfolio, fully of code projects!</p>
+    <div>
+    {/* // <div className="App">
+    //   <nav>
+    //     <ul>
+    //       <li onClick={()=> navigate("/about")}>Link One</li>
+    //       <li>Link Two</li>
+    //       <li>Link Three</li>
+    //     </ul>
+    //   </nav>
+    //   <h1>Lynn Smollin</h1> */}
+      {/* <p>Welcome to my portfolio, fully of code projects!</p>
       <p></p>
       <figure>
         <picture>
@@ -31,16 +34,26 @@ function App() {
         <figcaption>
           Source: <a href="https://www.fillmurray.com/">www.fillmurray.com/</a>
         </figcaption>
-      </figure>
-      <>
+      </figure> */}
+
+    
+      
+    
+<Router>
+<div className="App">
+      <Nav />
+      <h1>Lynn Smollin</h1>
       <Routes>
-        <Routes path="/" element={<Home />} />
-        <Routes path="/about" element={<About />} />
-        <Routes path="/projects" element={<Projects />} />
-        <Routes path="/hobbies" element={<Hobbies />} />
-        <Routes path="/work" element={<Work />} />
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/hobbies" element={<Hobbies />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/" element={<Home />} />
         </Routes>
-      </>
+        </div>
+</Router>
+    
     </div>
  
   );

@@ -1,6 +1,9 @@
-import React from 'react'; 
-const Work = () => { 
-    return 
-    <h2>Home Page</h2>; }; 
-    
-    export default Work;
+import React from 'react'
+
+function Work() {
+  return (
+    <div>Work</div>
+  )
+}
+
+export default Work;
