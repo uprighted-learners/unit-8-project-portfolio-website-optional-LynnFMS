@@ -14,3 +14,37 @@ nav li {
   display: inline-block;
   margin: 1em;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-around; /* This distributes space evenly around the items */
+  align-items: center; /* This centers the items vertically within the footer */
+  padding: 10px;
+  background-color: hotpink;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-item {
+ margin: 0 10px; /* This adds space around the items */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

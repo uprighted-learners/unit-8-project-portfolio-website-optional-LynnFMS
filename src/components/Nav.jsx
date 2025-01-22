@@ -12,6 +12,9 @@ function Nav() {
               <button onClick={()=> navigate("/work")}>work</button>
               <button onClick={()=> navigate("/hobbies")}>hobbies</button>
         </ul>
+
+      
+    
     </div>
   )
 }

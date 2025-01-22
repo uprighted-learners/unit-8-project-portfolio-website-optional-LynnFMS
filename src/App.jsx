@@ -11,6 +11,7 @@ import Nav from './components/Nav';
 
 
 
+
 function App() {
   // const navigate = useNavigate();
   return (
@@ -54,8 +55,30 @@ function App() {
         </Routes>
         </div>
 </Router>
+
+<div>
+  
+</div>
     
-    </div>
+
+
+<div className="footer">
+<div className="footer">
+  <div className="footer-item">lynn1312@gmail.com</div>
+  <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">LinkedIn</a></div>
+  <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">Home</a></div>
+  <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">About</a></div>
+  <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">Projects</a></div>
+  <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">Work</a></div>
+  <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">Hobbies</a></div>
+  <div className="footer-item">© 2025</div>
+</div>
+  
+</div>
+<div className="footer-item"> 
+ </div>
+
+</div>
  
   );
 }
