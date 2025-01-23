@@ -1,7 +1,18 @@
-#root {
+/* #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 auto; */
+  /* padding: 2rem;  */
+  /* text-align: center;
+} */ */
+
+.Everything {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -13,6 +24,27 @@ nav li {
   list-style: none;
   display: inline-block;
   margin: 1em;
+}
+
+.ImageLynn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%;
+  height: auto; */
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  /* text-align: center;
+  margin: 0% 50% 0% 50%;
+  width: 120%; 
+  max-width: fit-content;
+  margin-inline: auto; */
 }
 
 .footer {
@@ -28,7 +60,7 @@ nav li {
 }
 
 .footer-item {
- margin: 0 10px; /* This adds space around the items */
+ margin: 0 10px; 
 }
 
 ul {

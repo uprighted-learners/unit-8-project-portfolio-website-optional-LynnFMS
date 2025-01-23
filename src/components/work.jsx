@@ -1,13 +1,14 @@
 import React from 'react'
+import resume from '../assets/LYNN.SMOLLIN_Resume_1.21.2025.pdf';
 
 function Work() {
   return (
     <div>Work
-      <a href="/assets/LYNN.SMOLLIN_Resume_1.21.2025.pdf" download>
+      <a href= {resume} download>
   <img src="/assets/resumeclip.jpg" alt="My Personal Resume Screenshot"/>
 </a>
 
-<h1>My Resume</h1>
+{/* <h1>My Resume</h1> */}
 
     </div>
   )

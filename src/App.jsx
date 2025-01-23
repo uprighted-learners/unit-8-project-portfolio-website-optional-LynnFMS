@@ -15,7 +15,7 @@ import Nav from './components/Nav';
 function App() {
   // const navigate = useNavigate();
   return (
-    <div>
+    <div className='Everything'>
     {/* // <div className="App">
     //   <nav>
     //     <ul>
@@ -39,9 +39,9 @@ function App() {
 
     
       
-    
-<Router>
-<div className="App">
+   
+<Router className="Router">
+<div className="App"> 
 <h1>Lynn Smollin</h1>
       <Nav />
       {/* <h1>Lynn Smollin</h1> */}
@@ -53,9 +53,8 @@ function App() {
         <Route path="/work" element={<Work />} />
         <Route path="/" element={<Home />} />
         </Routes>
-        </div>
+        </div>  
 </Router>
-
 <div>
   
 </div>
@@ -64,6 +63,7 @@ function App() {
 
 <div className="footer">
 <div className="footer">
+  <div className="footer-item">© 2025</div>
   <div className="footer-item">lynn1312@gmail.com</div>
   <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">LinkedIn</a></div>
   <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">Home</a></div>
@@ -71,7 +71,6 @@ function App() {
   <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">Projects</a></div>
   <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">Work</a></div>
   <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">Hobbies</a></div>
-  <div className="footer-item">© 2025</div>
 </div>
   
 </div>
