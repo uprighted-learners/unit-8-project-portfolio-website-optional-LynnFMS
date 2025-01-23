@@ -63,14 +63,14 @@ function App() {
 
 <div className="footer">
 <div className="footer">
-  <div className="footer-item">© 2025</div>
   <div className="footer-item">lynn1312@gmail.com</div>
   <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">LinkedIn</a></div>
-  <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">Home</a></div>
-  <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">About</a></div>
-  <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">Projects</a></div>
-  <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">Work</a></div>
-  <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">Hobbies</a></div>
+  <div className="footer-item"><a href="http://localhost:5174/home">Home</a></div>
+  <div className="footer-item"><a href="http://localhost:5174/about#/about">About</a></div>
+  <div className="footer-item"><a href="http://localhost:5174/about#/projects">Projects</a></div>
+  <div className="footer-item"><a href="http://localhost:5174/about#/work">Work</a></div>
+  <div className="footer-item"><a href="http://localhost:5174/about#/hobbies">Hobbies</a></div>
+  <div className="footer-item">© 2025</div>
 </div>
   
 </div>
