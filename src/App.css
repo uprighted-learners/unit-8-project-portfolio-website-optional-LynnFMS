@@ -65,6 +65,29 @@ nav li {
   margin: 20px;
 }
 
+.WorkPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+}
+
+.Picture img {
+ width: 500px;
+ height: 1000px;
+}
+
+.HobbiesPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 100px;
+}
+
 .footer {
   display: flex;
   justify-content: space-around; /* This distributes space evenly around the items */

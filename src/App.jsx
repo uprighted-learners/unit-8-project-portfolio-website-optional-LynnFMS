@@ -16,29 +16,6 @@ function App() {
   // const navigate = useNavigate();
   return (
     <div className='Everything'>
-    {/* // <div className="App">
-    //   <nav>
-    //     <ul>
-    //       <li onClick={()=> navigate("/about")}>Link One</li>
-    //       <li>Link Two</li>
-    //       <li>Link Three</li>
-    //     </ul>
-    //   </nav>
-    //   <h1>Lynn Smollin</h1> */}
-      {/* <p>Welcome to my portfolio, fully of code projects!</p>
-      <p></p>
-      <figure>
-        <picture>
-          <souce srcset="https://www.fillmurray.com/g/300/400" />
-          <img src="https://www.fillmurray.com/g/300/400" />"
-        </picture>
-        <figcaption>
-          Source: <a href="https://www.fillmurray.com/">www.fillmurray.com/</a>
-        </figcaption>
-      </figure> */}
-
-    
-      
    
 <Router className="Router">
 <div className="App"> 

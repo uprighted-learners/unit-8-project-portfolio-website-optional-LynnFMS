@@ -10,7 +10,7 @@ function Projects() {
         <li><a href="https://github.com/LynnFMS/Guess-the-Number.git" target="_blank" rel="noopener noreferrer">Guess the Number</a></li>
         <li><a href="https://github.com/LynnFMS/Zorkington.git" target="_blank" rel="noopener noreferrer">Zorkington</a></li>
         <li><a href="https://github.com/LynnFMS/Server-Blog.git" target="_blank" rel="noopener noreferrer">Server Blog</a></li>
-        <li><a href="https://github.com/uprighted-learners/unit-6-project-react-chat-RolusC5B" target="_blank" rel="noopener noreferrer">React Chat</a></li>
+        <li><a href="https://github.com/LynnFMS/React-Chat" target="_blank" rel="noopener noreferrer">React Chat</a></li>
       </ul>
       
 
