@@ -9,9 +9,13 @@ function Work() {
   <img className='Picture' src="/assets/resumeclip.jpg" alt="My Personal Resume Screenshot"/>
   </a>
 
-<p>Click on the image to download my resume.</p>
+<p style={{textAlign: "center", fontSize: "2em"}}> Career Goals: I plan on using my experience from the Upright bootcamp to 
+    Enhance my knowledge in Sales, DevOps, Engineering, and Project Management 
+    through additional courses, workshops, or on-the-job experiences.</p>
 
     </div>
+
+   
   )
 }
 
