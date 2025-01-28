@@ -9,11 +9,26 @@ function Work() {
   <img className='Picture' src="/assets/resumeclip.jpg" alt="My Personal Resume Screenshot"/>
   </a>
 
-<p style={{textAlign: "center", fontSize: "2em"}}> Career Goals: I plan on using my experience from the Upright bootcamp to 
+<p style={{textAlign: "center", fontSize: "1.5em"}}> Career Goals: I plan on using my experience from the Upright bootcamp to 
     Enhance my knowledge in Sales, DevOps, Engineering, and Project Management 
     through additional courses, workshops, or on-the-job experiences.</p>
 
-    </div>
+<p style={{textAlign: "left", fontSize: "1.5em"}}>
+Experience: <br></br>
+October 2024 – present
+Cloud Operations Coordinator, Cloud Business • Precisely – CBO
+Cloud Business Operations 
+<p></p>
+June 2022 – September 2024 
+Data Engineer, Quality Assurance • Precisely – Enrich 
+
+<br></br>February 2016 – June 2022 
+Data Engineer, Data Precisely – Enrich 
+<p></p>Certifications:
+<br></br>February 2021: 
+Scrum Master</p>    
+
+</div>
 
    
   )
