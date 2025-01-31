@@ -4,6 +4,7 @@ function Projects() {
   return (
     <div className='Projects'>
 
+<div className='PLinks'>
 <h1>Project Links</h1>
       <ul>
         <li><a href="https://github.com/LynnFMS/Jeopardy.git" target="_blank" rel="noopener noreferrer">Jeopardy</a></li>
@@ -13,9 +14,11 @@ function Projects() {
         <li><a href="https://github.com/LynnFMS/React-Chat" target="_blank" rel="noopener noreferrer">React Chat</a></li>
       </ul>
       
+      </div>
 
-      <h1>Lab Links</h1>
-      <ul>
+<div className='LabLinks'>
+      <h1 className='Lab'>Lab Links</h1>
+      <ul className='Labs'>
         <li><a href="https://github.com/LynnFMS/floating-images.git" target="_blank" rel="noopener noreferrer">Floating Images</a></li>
         <li><a href="https://github.com/LynnFMS/hello-html.git" target="_blank" rel="noopener noreferrer">Hello HTML</a></li>
         <li><a href="https://github.com/LynnFMS/hello-styles.git" target="_blank" rel="noopener noreferrer">Hello styles</a></li>
@@ -40,7 +43,8 @@ function Projects() {
 
       </ul>
       </div>
-
+      
+    </div>
   
   )
 }

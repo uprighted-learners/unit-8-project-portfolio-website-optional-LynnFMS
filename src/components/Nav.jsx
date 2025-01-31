@@ -6,7 +6,7 @@ function Nav() {
   return (
     <div>
         <ul>
-              <button onClick={()=> navigate("/Home")}>home</button>
+              <button onClick={()=> navigate("/")}>home</button>
               <button onClick={()=> navigate("/AboutMe")}>about</button>
               <button onClick={()=> navigate("/Projects")}>projects</button>
               <button onClick={()=> navigate("/Work")}>work</button>

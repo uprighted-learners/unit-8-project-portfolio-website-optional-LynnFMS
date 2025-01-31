@@ -16,22 +16,24 @@ function App() {
   // const navigate = useNavigate();
   return (
     <div className='Everything'>
-   
-<Router className="Router">
 <div className="App"> 
+<Router className="Router">
+{/* <div className="App">  */}
 <h1>Lynn Smollin</h1>
       <Nav />
       {/* <h1>Lynn Smollin</h1> */}
       <Routes>
         {/* <Route path="/" element={<Home />} /> */}
-        <Route path="/about" element={<About />} />
+        <Route path="/aboutme" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/hobbies" element={<Hobbies />} />
         <Route path="/work" element={<Work />} />
         <Route path="/" element={<Home />} />
         </Routes>
-        </div>  
+
+        {/* </div>   */}
 </Router>
+</div>  
 <div>
   
 </div>
