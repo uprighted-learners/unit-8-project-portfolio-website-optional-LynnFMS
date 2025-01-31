@@ -1,4 +1,9 @@
 import React from 'react'
+import JeoPic from '../assets/jeopardy-background.jpg';
+import GuessPic from '../assets/guess_the_number.png';
+import Zork from '../assets/Zork.png';
+import ServerB from '../assets/server_blog.jpg';
+import ReactC from '../assets/react_chat.jpg';
 
 function Projects() {
   return (
@@ -8,13 +13,17 @@ function Projects() {
 <h1>Project Links</h1>
       <ul>
         <li><a href="https://github.com/LynnFMS/Jeopardy.git" target="_blank" rel="noopener noreferrer">Jeopardy</a></li>
+        <img src= {JeoPic} alt="My Picture" style={{width: "15em", height: "5em"}} />
         <li><a href="https://github.com/LynnFMS/Guess-the-Number.git" target="_blank" rel="noopener noreferrer">Guess the Number</a></li>
+        <img src= {GuessPic} alt="My Picture" style={{width: "15em", height: "5em"}} />
         <li><a href="https://github.com/LynnFMS/Zorkington.git" target="_blank" rel="noopener noreferrer">Zorkington</a></li>
+        <img src= {Zork} alt="My Picture" style={{width: "15em", height: "5em"}} />
         <li><a href="https://github.com/LynnFMS/Server-Blog.git" target="_blank" rel="noopener noreferrer">Server Blog</a></li>
+        <img src= {ServerB} alt="My Picture" style={{width: "15em", height: "5em"}} />
         <li><a href="https://github.com/LynnFMS/React-Chat" target="_blank" rel="noopener noreferrer">React Chat</a></li>
+        <img src= {ReactC} alt="My Picture" style={{width: "15em", height: "5em"}} />
       </ul>
-      
-      </div>
+</div>
 
 <div className='LabLinks'>
       <h1 className='Lab'>Lab Links</h1>
@@ -40,10 +49,8 @@ function Projects() {
         <li><a href="https://github.com/LynnFMS/name-display.git" target="_blank" rel="noopener noreferrer">Name Display</a></li>
         <li><a href="https://github.com/LynnFMS/post-selector.git" target="_blank" rel="noopener noreferrer">Post Selector</a></li>
         <li><a href="https://github.com/LynnFMS/react-router.git" target="_blank" rel="noopener noreferrer">React Router</a></li>
-
       </ul>
-      </div>
-      
+</div>
     </div>
   
   )

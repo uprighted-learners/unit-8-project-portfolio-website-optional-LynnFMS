@@ -5,7 +5,6 @@
   align-items: center;
   margin: 0 auto;
   width: 100%;
-  /* /* text-align: center; */
 }
 
 
@@ -39,8 +38,6 @@ nav li {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  /* width: 100%;
-  height: auto; */
 }
 
 .App {
@@ -50,8 +47,7 @@ nav li {
   flex-direction: column;
   width: 100%;
   max-width: 100%;
-  /* margin: 0 auto; Center it without restricting width */
-  flex-grow: 1; /* Ensure it expands if inside a flex parent */
+  flex-grow: 1; /*Ensure it expands if inside a flex parent */
 }
   
  
@@ -63,13 +59,10 @@ nav li {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  /* margin: 20px; */
 }
 
 .Projects {
   display: flex;
-  /* justify-content: right; */
-  /* align-items: center; */
   flex-direction: row;
   text-align: center;
   gap: 25px;
@@ -82,7 +75,6 @@ nav li {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  /* margin: 20px; */
 }
 
 .LabLinks {
@@ -91,7 +83,6 @@ nav li {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  /* margin: 20px; */
 }
 
 .WorkPage {
@@ -104,8 +95,8 @@ nav li {
 }
 
 .Picture img {
- width: 500px;
- height: 1000px;
+  width: 500px;
+  height: 1000px;
 }
 
 .HobbiesPage {
@@ -137,10 +128,6 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-
-/* li {
-  margin: 10px 0;
-} */
 
 a {
   color: blue;

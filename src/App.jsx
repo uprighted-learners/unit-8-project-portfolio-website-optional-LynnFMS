@@ -7,35 +7,30 @@ import About from './components/AboutMe';
 import Projects from './components/Projects';
 import Hobbies from './components/Hobbies';
 import Work from './components/Work';
+import Contact from './components/Contact';
 import Nav from './components/Nav';
 
 
 
 
 function App() {
-  // const navigate = useNavigate();
   return (
     <div className='Everything'>
 <div className="App"> 
 <Router className="Router">
-{/* <div className="App">  */}
 <h1>Lynn Smollin</h1>
       <Nav />
-      {/* <h1>Lynn Smollin</h1> */}
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
         <Route path="/aboutme" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/hobbies" element={<Hobbies />} />
         <Route path="/work" element={<Work />} />
         <Route path="/" element={<Home />} />
-        </Routes>
-
-        {/* </div>   */}
+        <Route path="/contact" element={<Contact/>} />
+      </Routes>
 </Router>
-</div>  
+    </div>  
 <div>
-  
 </div>
     
 
@@ -45,10 +40,11 @@ function App() {
   <div className="footer-item">lynn1312@gmail.com</div>
   <div className="footer-item"><a href="https://www.linkedin.com/in/lynn-smollin-psmi-68412910b/">LinkedIn</a></div>
   <div className="footer-item"><a href="http://localhost:5174/home">Home</a></div>
-  <div className="footer-item"><a href="http://localhost:5174/about#/about">About</a></div>
+  <div className="footer-item"><a href="http://localhost:5174/about#/aboutme">About</a></div>
   <div className="footer-item"><a href="http://localhost:5174/about#/projects">Projects</a></div>
   <div className="footer-item"><a href="http://localhost:5174/about#/work">Work</a></div>
   <div className="footer-item"><a href="http://localhost:5174/about#/hobbies">Hobbies</a></div>
+  <div className="footer-item"><a href="http://localhost:5174/about#/Contact">Contact</a></div>
   <div className="footer-item">© 2025</div>
 </div>
   

@@ -30,7 +30,6 @@ Scrum Master</p>
 
 </div>
 
-   
   )
 }
 
