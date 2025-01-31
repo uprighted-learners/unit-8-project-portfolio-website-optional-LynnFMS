@@ -51,7 +51,7 @@ Should have:
   * Projects or Portfolio
   * Hobbies and Interests
   * Work History
-  * Contact Me Form
+  * Contact Me Form ???
 
 ## About Me Page
 
@@ -68,7 +68,7 @@ Should have:
 * Link to the completed or in progress project repositories for this bootcamp.
   * Use links to your Github repositories and/or links to your deployed projects, possibly with cover screenshots.
   * Make sure the links are up to date!
-* Add cover screenshots for each project.
+* Add cover screenshots for each project. ???
   * Optionally add a separate page for each with a description of the objectives, your approach to solving the project, and anything else that you learned.
   * Optionally record a video showing your walk-through of the project program or application in use.
 
