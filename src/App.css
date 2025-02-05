@@ -1,16 +1,139 @@
 #root {
   max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+}
+
+
+.Everything {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  width: 100%;
+  min-width: 1750px;
+  min-height: 100 vh;
 }
 
 .card {
   padding: 2em;
 }
 
+.Router {
+  width: 100%;
+}
+
 nav li {
   list-style: none;
   display: inline-block;
   margin: 1em;
+}
+
+.ImageLynn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  flex-grow: 1; /*Ensure it expands if inside a flex parent */
+}
+  
+ 
+
+
+.AboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Projects {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 25px;
+  
+}
+
+.Plinks {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.LabLinks {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.WorkPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+}
+
+.Picture img {
+  width: 500px;
+  height: 1000px;
+}
+
+.HobbiesPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 100px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around; /* This distributes space evenly around the items */
+  align-items: center; /* This centers the items vertically within the footer */
+  padding: 10px;
+  background-color: hotpink;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-item {
+ margin: 0 10px; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
