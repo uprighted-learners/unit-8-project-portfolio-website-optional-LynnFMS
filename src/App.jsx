@@ -1,3 +1,4 @@
+{/*import all of my components and the Router, Routes, and Route components from react-router-dom.*/}
 import './App.css';
 import { HashRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
 import "./App.css"
@@ -15,11 +16,14 @@ import Nav from './components/Nav';
 
 function App() {
   return (
+    //This is the main div that holds everything.
     <div className='Everything'>
 <div className="App"> 
 <Router className="Router">
+  {/*This is the router.*/}
 <h1>Lynn Smollin</h1>
       <Nav />
+      {/*This is the navigation bar.*/}
       <Routes>
         <Route path="/aboutme" element={<About />} />
         <Route path="/projects" element={<Projects />} />
@@ -34,7 +38,7 @@ function App() {
 </div>
     
 
-
+{/*This is the footer, with links to pages*/}
 <div className="footer">
 <div className="footer">
   <div className="footer-item">lynn1312@gmail.com</div>

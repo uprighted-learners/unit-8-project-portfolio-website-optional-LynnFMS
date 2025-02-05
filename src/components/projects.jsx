@@ -5,29 +5,31 @@ import Zork from '../assets/Zork.png';
 import ServerB from '../assets/server_blog.jpg';
 import ReactC from '../assets/react_chat.jpg';
 
-function Projects() {
+function Projects() { /*This is the Projects component. It is a functional component that returns a div with a class name of Projects.*/
   return (
     <div className='Projects'>
 
 <div className='PLinks'>
 <h1>Project Links</h1>
-      <ul>
+      <ul> 
+        {/*This is a list of my projects with links to their GitHub repositories.*/}
         <li><a href="https://github.com/LynnFMS/Jeopardy.git" target="_blank" rel="noopener noreferrer">Jeopardy</a></li>
-        <img src= {JeoPic} alt="My Picture" style={{width: "15em", height: "5em"}} />
+        <img src= {JeoPic} alt="Jeopardy"style={{width: "15em", height: "5em"}} />
         <li><a href="https://github.com/LynnFMS/Guess-the-Number.git" target="_blank" rel="noopener noreferrer">Guess the Number</a></li>
-        <img src= {GuessPic} alt="My Picture" style={{width: "15em", height: "5em"}} />
+        <img src= {GuessPic} alt="Guess the Number" style={{width: "15em", height: "5em"}} />
         <li><a href="https://github.com/LynnFMS/Zorkington.git" target="_blank" rel="noopener noreferrer">Zorkington</a></li>
-        <img src= {Zork} alt="My Picture" style={{width: "15em", height: "5em"}} />
+        <img src= {Zork} alt="Zorkington" style={{width: "15em", height: "5em"}} />
         <li><a href="https://github.com/LynnFMS/Server-Blog.git" target="_blank" rel="noopener noreferrer">Server Blog</a></li>
-        <img src= {ServerB} alt="My Picture" style={{width: "15em", height: "5em"}} />
+        <img src= {ServerB} alt="Server Blog" style={{width: "15em", height: "5em"}} />
         <li><a href="https://github.com/LynnFMS/React-Chat" target="_blank" rel="noopener noreferrer">React Chat</a></li>
-        <img src= {ReactC} alt="My Picture" style={{width: "15em", height: "5em"}} />
+        <img src= {ReactC} alt="React Chat" style={{width: "15em", height: "5em"}} />
       </ul>
 </div>
 
 <div className='LabLinks'>
       <h1 className='Lab'>Lab Links</h1>
       <ul className='Labs'>
+        {/*This is a list of my labs with links to their GitHub repositories.*/}
         <li><a href="https://github.com/LynnFMS/floating-images.git" target="_blank" rel="noopener noreferrer">Floating Images</a></li>
         <li><a href="https://github.com/LynnFMS/hello-html.git" target="_blank" rel="noopener noreferrer">Hello HTML</a></li>
         <li><a href="https://github.com/LynnFMS/hello-styles.git" target="_blank" rel="noopener noreferrer">Hello styles</a></li>
